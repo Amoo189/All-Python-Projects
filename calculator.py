@@ -8,7 +8,7 @@ class Root(Tk):
         self.title_label.pack()
         self.entry = Entry(self)
         self.entry.pack()
-        self.entry.insert(0, " 4**2")
+        self.entry.insert(0, "")
         self.label = Label(self, text="")
         self.label.pack()
         self.button = Button(self, text="calculate", command=self.onclick)

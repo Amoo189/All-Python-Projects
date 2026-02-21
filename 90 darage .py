@@ -1,10 +1,11 @@
 import turtle
 t = turtle.Turtle()
 t.shape("turtle")
-t.color("blue")
+t.shapesize(1,1,1)
+t.color("skyblue")
 t.width(3)
-t.speed(60)
-for i in range(24):
+t.speed(100)
+for i in range(12):
 	for j in range(12):
 		t.forward(200)
 		t.left(45)

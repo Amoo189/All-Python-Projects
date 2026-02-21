@@ -1,7 +1,7 @@
 #⛮POWERED BY||SALEH AMOO||rock_paper_scissors2✂⛮ Ψ
 #┄┄┄┅┅❅✾❅┅┅┄┄┄
 import random, sys
-print('卐ROCK, PAPER, SCISSORS卐')
+print('♨ROCK, PAPER, SCISSORS♨')
 wins = 0
 losses = 0
 ties = 0
@@ -11,7 +11,7 @@ while True:
         print('Enter your move: (r)ock (p)aper (s)cissors or (q)uit')
         playerMove = input()
         if playerMove == 'q':
-            print("卐bay卐")
+            print("⚕bay⚕")
             sys.exit() 
         if playerMove == 'r' or playerMove == 'p' or playerMove == 's':
             break

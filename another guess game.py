@@ -5,7 +5,7 @@ print("Welcome to the guess game.DELTAΔ")
 max = int(input("Enter the range of game."))
 secretNumber = random.randint(1, max)
 print('I am thinking of a number between 1 and %d.' %max )
-# Ask the player to guess 6 times.
+
 for guessesTaken in range(1, 87):
     print('Take a guess.')
     guess = int(input())
@@ -14,7 +14,7 @@ for guessesTaken in range(1, 87):
     elif guess > secretNumber:
         print('Your guess is too high.')
     else:
-        break # This condition is the correct guess!
+        break
 if guess == secretNumber:
     print('Good job! You guessed my number in ' + str(guessesTaken) + ' guesses!')
 else:
